@@ -133,15 +133,15 @@ def resume_page():
     col1, col2, col3, col4 = st.columns(4)
     
     with col1:
-        st.image("static/images/baking1.jpg", use_column_width=True)
+        st.image("static/images/baking1.jpg", use_container_width=True)
     
     with col2:
-        st.image("static/images/baking2.jpg", use_column_width=True)
+        st.image("static/images/baking2.jpg", use_container_width=True)
         
     with col3:
-        st.image("static/images/baking3.jpg", use_column_width=True)
+        st.image("static/images/baking3.jpg", use_container_width=True)
         
     with col4:
-        st.image("static/images/baking4.jpg", use_column_width=True)
+        st.image("static/images/baking4.jpg", use_container_width=True)
     
     st.markdown("---")
