@@ -18,7 +18,7 @@ def education_page():
         """)
     
     with col2:
-        st.image("static/images/cuhk.jpg", use_column_width=True)
+        st.image("static/images/cuhk.jpg", use_container_width=True)
     
     # ANU部分
     col3, col4 = st.columns([0.7, 0.3])
@@ -34,7 +34,7 @@ def education_page():
         """)
     
     with col4:
-        st.image("static/images/anu.jpg", use_column_width=True)
+        st.image("static/images/anu.jpg", use_container_width=True)
     
     st.markdown("---")
     
